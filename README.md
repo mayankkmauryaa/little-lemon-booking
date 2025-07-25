@@ -96,11 +96,9 @@ npm test
 
 ---
 
-## 🔗 Live Preview (Optional)
+## 🔗 Github
 
-If deployed, include the link here:
-
-<!-- > [https://yourusername.github.io/little-lemon-booking](https://yourusername.github.io/little-lemon-booking) -->
+https://github.com/mayankkmauryaa/little-lemon-booking.git
 
 ---
 
