@@ -1,0 +1,51 @@
+.home-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero {
+  max-width: 600px;
+  background-color: #fffefc;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #1e2a38;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #495edb;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #2e45bd;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# 🍋 Little Lemon - Table Booking App (React Capstone Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of the **Meta Front-End Developer Capstone** on Coursera. The app allows users to book a table at the Little Lemon restaurant. It demonstrates advanced React concepts, accessibility, form validation, semantic HTML, and responsive design.
 
-## Available Scripts
+ <!-- Replace with actual screenshot if needed -->
+![alt text](image.png)
+![alt text](image-1.png)
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Fully functional table booking form
+- ✅ Form validation with error handling
+- ✅ Accessible design with semantic HTML
+- ✅ Responsive layout for all devices
+- ✅ Modular components with CSS styling
+- ✅ Git version-controlled with clean commits
+- ✅ Modern, clean UI inspired by real-world booking systems
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5 / CSS3**
+- **Git + GitHub**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+little-lemon-booking/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── BookingForm.js
+│   │   ├── BookingForm.css
+│   ├── pages/
+│   │   ├── Homepage.js
+│   │   ├── BookingPage.js
+│   │   ├── BookingPage.css
+│   ├── App.js
+│   ├── index.js
+│   ├── setupTests.js
+│   └── ...
+├── package.json
+└── README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+````
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧪 Testing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Unit test file(s) included for form logic and behavior.
+- To run tests:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm test
+````
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📸 Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Homepage                                                        | Booking Page                                                          |
+| --------------------------------------------------------------- | --------------------------------------------------------------------- |
+|![alt text](image-3.png) | ![alt text](image-4.png) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔍 Accessibility & UX/UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* All form fields include associated `<label>` tags
+* Uses clear visual focus indicators
+* Mobile-friendly layout using Flexbox/Grid
+* Buttons and inputs use semantic roles
+* Minimal color contrast is maintained for readability
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✅ Submission Checklist
 
-### Making a Progressive Web App
+* [x] Followed Coursera UI/UX design mock
+* [x] GitHub repository is public and accessible
+* [x] Booking form is functional with validation
+* [x] Code is modular, clean, and styled
+* [x] Semantic HTML and ARIA practices followed
+* [x] Included at least one unit test
+* [x] Submitted GitHub repo link in the Coursera peer-review portal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🔗 Live Preview (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If deployed, include the link here:
 
-### Deployment
+<!-- > [https://yourusername.github.io/little-lemon-booking](https://yourusername.github.io/little-lemon-booking) -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 👤 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Mayank Maurya**
+Meta Front-End Developer Program – Capstone Project
+GLA University | 2023–2027
+
+---
+
+## 📜 License
+
+This project is part of an academic submission and follows [Coursera Honor Code](https://www.coursera.org/about/honorcode). It is not for commercial use.
